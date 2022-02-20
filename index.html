@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnClick</title>
+    
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600&family=Roboto+Mono:wght@500&family=Roboto+Serif:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="top">
+    <div class="nav">
+        <h1 class="nav-title">Dojonary</h1>
+        <input type="text" id="searchbar" name="searchbar" placeholder="Search">
+        <label for="searchbar"></label>
+        <button type="button" id="id_btn" class="btn1" onclick="handleLogin()">Login</button>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            <div class="box1">
+                <div class="row">
+                    <div class="col">
+                        <h1>ninja</h1>
+                        <h3>noun</h3>
+                        <p> Plural: ninjas</p>
+                        <button class="likes" onclick="likeAlert()">13 Likes</button><br>
+                    </div>
+                    <div class="col">
+                        <div class="segundotexto"><br>
+                            <p>A practicioner skilled in the japanese art of ninjutsu</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="box2">
+                <div class="row">
+                    <div class="col">
+                        <h1>ninja</h1>
+                        <h3>noun</h3>
+                        <p> Plural: ninjas</p>
+                        <button class="likes" onclick="likeAlert()">37 Likes</button>  
+                    </div>
+                    <div class="col">
+                        <div class="segundotexto"> 
+                            <p>A programmer who breaks down problems with zen-like focus</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+        <div class="col-2">
+            <div class="box3">
+                <h1>Dojonary is defined by YOU!</h1>
+                <button class="likes" onclick="deleteBtn(this)">Add Definition</button>
+            </div>
+        </div>    
+    </div>
+</div>
+</div>
+
+<script src="./script.js"></script>
+</body>
+</html>

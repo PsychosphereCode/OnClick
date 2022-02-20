@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body * {
+    font-family: 'Roboto Mono', monospace;
+}
+
+
+#outer {
+    display: grid;
+    grid-template-columns: repeat(1, 900px);
+    grid-auto-rows: 250px;
+    grid-gap: 10px;
+    width: 516px;
+}
+
+
+.top{
+    height: 80px;
+    background-color: white;
+    display: flex;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.nav{
+    background-color: grey;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    /* position: sticky;
+    top:0; */
+    z-index: 100;
+    margin-top: 0px;
+    border: 2px solid black;
+    
+}
+.nav-title{
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+
+.btn1{
+    height: 40px;
+    width: 100px;
+    background-color: blue;
+    margin-top: 20px;
+    margin-right: 20px;
+    color: white;
+}
+
+#searchbar{
+    width: 300px;
+    height: 40px;
+    margin-top: 15px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: green; */
+    margin-top: 30px;
+}
+.row{
+    display: flex;
+}
+
+.col{
+    flex:2;
+    padding: 10px;
+    margin: 10px;
+    
+    /* border: 3px solid black; */
+}
+.col-2{
+    flex: 1;
+    padding: 10px;
+    margin: 10px;
+}
+.box1 h3{
+    font-style: italic;
+}
+
+.box1{
+    padding: 30px;
+    height: 200px;
+    /* width: 600px; */
+    border: 2px black solid;
+    margin-bottom: 20px;
+    
+    
+
+
+}
+.box2{
+    padding: 30px;
+    height:200px ;
+    border: 2px black solid;
+    margin-bottom: 20px;
+
+}
+.box3 {
+    padding: 30px;
+    height:200px ;
+    border: 2px black solid;
+    margin-bottom: 20px;
+
+}
+.likes{
+    width: 80px;
+    height: 40px;
+    box-sizing: border-box;
+    background-color: yellow;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    box-shadow: 10px 5px 5px black;
+
+}
+.box3 .likes{
+    width: 100px;
+    height: 40px;
+    box-sizing: border-box;
+    background-color: greenyellow;
+    box-shadow: 10px 5px 5px black;
+    margin-top: 40px;
+}
