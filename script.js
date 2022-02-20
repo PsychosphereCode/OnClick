@@ -1,11 +1,12 @@
-function likeAlert(ninjaId) {
+function likeAlert() {
     alert("Ninja was liked");
 }
 
 function handleLogin() {
     document.getElementById("id_btn").innerText = "Log Out"
+    
 }
 
 function deleteBtn(param) {
-    param.style="visibility: hidden;";
+    param.style.visibility = "hidden";
 }

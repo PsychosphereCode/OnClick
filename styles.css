@@ -85,6 +85,9 @@ body * {
 .box1 h3{
     font-style: italic;
 }
+.box2 h3{
+    font-style: italic;
+}
 
 .box1{
     padding: 30px;
@@ -125,7 +128,7 @@ body * {
     width: 100px;
     height: 40px;
     box-sizing: border-box;
-    background-color: greenyellow;
+    background-color: rgb(151, 206, 68);
     box-shadow: 10px 5px 5px black;
     margin-top: 40px;
 }
